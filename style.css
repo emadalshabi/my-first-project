@@ -1,0 +1,68 @@
+.parent {
+
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex ;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.header {
+
+    width:100%;
+    height:30%;
+background-color: blue;
+}
+
+.con {
+
+    width: 100%;
+    height: 70%;
+    display: flex ;
+    gap: 10px;
+}
+
+.nav {
+    width: 15%;
+    height: 85%;
+    background-color: red;
+}
+.main{
+  width: 85%;  
+  height: 100%;
+  background-color: yellow;
+  padding: 10px;
+  display: flex ;
+ flex-direction: column;
+gap: 15px;
+}
+.boxes {
+    width: 100%;
+    height: 65%;
+    display: flex ;
+    justify-content: space-between;
+}
+
+ .footer{
+    width: 100%;
+    height: 35%;
+    background-color: pink;
+ }
+ .one{
+    width: 30%;
+    height: 100%;
+    background-color: purple;
+ }
+ .two{
+    width: 30%;
+    height: 100%;
+    background-color: purple;
+ }
+ .three{
+    width: 30%;
+    height: 100%;
+    background-color: purple;
+ }
